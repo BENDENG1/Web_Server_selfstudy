@@ -17,7 +17,7 @@ public class AddrBean {
 		try {
 			Class.forName(jdbc_driver);
 
-			conn = DriverManager.getConnection(jdbc_url,"root","ASDFasdf12!@");
+			conn = DriverManager.getConnection(jdbc_url,"아이디","비밀번호");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
